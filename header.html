@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- link our css which take some css related to site -->
+      <!-- Bootstrap CSS -->
+      <!-- Latest compiled and minified CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Latest compiled JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/168fe0b12d.js" crossorigin="anonymous"></script>
+      <!-- link our css which take some css related to site -->
+      <link rel="stylesheet" href="mystyle.css">
+        
+      <!--title-->
+      <title>header</title>
+    </head>
+        <body>
+            <!--header -->
+            <!--using div and this div work as header by implementing this into headerfootr.js file -->
+           <!--using container to making 1st navbar -->
+           <div class="container-fluid text-center " id="fixed-nav-bar">
+
+            <div class="row navbar-rows" id="nav-barfistpart">
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3 logo-site">
+                <a class="navbar-brand" href="index.html">
+                  <img class="logo-img" src="logo.jpg" alt="logo">
+                </a>
+              </div>
+              <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+                <div class="input-group rounded">
+                  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                  <button class="search"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3" id="cart-login">
+                <a class="nav-item" id="login-btn" aria-current="page" href="loginpage.html">
+                <button type="button" class="btn btn-outline"><i class="fa-solid fa-user"></i>Login</button>
+                </a>
+                <a class="nav-item" id="cart" href="cart.html"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+              </div>
+            </div>
+          
+          <!-- creating a nav bar which contain all the page link in short-cut -->
+          <div class="row navbar-rows" id="fixed-nav">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- Drop down for mens-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Mens</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="allproductsmens.html">All productos</a></li>
+                  <li><a class="dropdown-item" href="hoodies.html">Hoodies</a></li>
+                  <li><a class="dropdown-item" href="hoodies.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="shirts.html">Shirts</a></li>
+                </ul>
+              </li>
+              <!--Drop-down for womens-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Womens</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="All-productswomen.html">All productos</a></li>
+                  <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                  <li><a class="dropdown-item" href="Pantswomen.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="Skirts.html">Skirts</a></li>
+                </ul>
+              </li>
+              <!--kids section of nav bar -->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="kids.html">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Contact.html">Contact</a>
+              </li>
+            </ul>
+           </div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+/* css for my site */
+div{
+    color: black;
+}
+
+
+
+
+
+
+/* css is needed for our search bar and nav container*/
+#fixed-nav-bar{ 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    background-color:rgb(248, 223, 248);
+}
+#fixed-nav{
+    background-color:rgb(248, 223, 248);
+}
+.navbar-rows{
+    background-color:rgb(248, 223, 248);
+}
+.nav-item{
+    color: black;
+}
+a{
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+#product-container{
+    align-self: last baseline;
+    margin-top: 100px;
+}
+
+
+.btn-outline{
+    border: 1px solid;
+    background-color:rgb(248, 223, 248);
+}
+.btn-outline:hover{
+    background-color: #4caf50;
+}
+#login-btn{
+    background-color:rgb(248, 223, 248);
+    margin-right: 10%;
+}
+footer{
+    background-color: grey;
+}
+.search{
+    border: 0px;
+}
+.search:hover{
+    
+    background-color: white;
+}
+.col-12{
+    margin-top: 10px;
+}
+/* css for footer*/
+.copyright{
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+}
+
+/*css for all cards looking*/
+
+.card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 261px;
+    min-height: 149px;
+    max-height: 150px;
+}
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.card:hover{
+    border: solid #f7f3f3;
+}
+#card-btn:hover{
+    background-color:rgb(248, 223, 248);
+}
+/* css for index */
+.about-site{
+    margin-top: 100px;
+}
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feactured-product-title{
+    text-align: center;
+    border: 1px lightblue solid;
+}
+#featured-products-items{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card-featured{
+    position: relative;
+}
+#featured-products-row{
+    margin-top: 10px;
+}
+/* css for contact us form*/
+.title-contact-us{
+    text-align: center;
+    background-color: antiquewhite;
+}
+#contactusfistcolimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* css for login-form*/
+.login-form{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-btn-2{
+    max-width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4caf50;
+}
+.login-btn-2:hover{
+    background-color:rgb(248, 223, 248);
+}
